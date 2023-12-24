@@ -51,4 +51,17 @@ Based on [Debian's official SSH documentation](https://wiki.debian.org/SSH), thi
   ssh user@target-machine
   ```
 
+## Troubleshooting
+
+- **Permissions**: As advised in Debian SSH security practices, set strict permissions for SSH directories:
+  ```shell
+  chmod 700 ~/.ssh
+  ```
+
+  ```shell
+  chmod 600 ~/.ssh/authorized_keys
+  ```
+- **Firewall Settings**: Ensure the firewall on the target allows SSH connections on port 22, consistent with Debian standards.
+- **SSH Service**: Verify that the SSH service is active on the target machine, as per Debian's guidelines.
+
 For more details, see the [Debian SSH Wiki](https://wiki.debian.org/SSH).
