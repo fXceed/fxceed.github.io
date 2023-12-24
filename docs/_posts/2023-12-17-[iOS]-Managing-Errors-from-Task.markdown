@@ -2,7 +2,7 @@
 layout: post
 title:  "[iOS] Managing Errors from Task"
 date:   2023-12-17 14:37:30 -0500
-categories: jekyll update development
+categories: iOS concurrency
 ---
 ## 1. Propagate the Error to the Caller
 
