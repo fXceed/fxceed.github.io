@@ -34,4 +34,8 @@ This approach configures the system to install updates automatically without use
 2. **Risk of Unforeseen Issues**: Automatic updates might introduce problems if an update has compatibility issues.
 3. **Resource Utilization**: If not configured correctly, it might consume resources or perform updates at inconvenient times.
 
+
+For more detailed information about unattended-upgrades, refer to the [Debian Wiki](https://wiki.debian.org/UnattendedUpgrades)
+
+
 Both methods have their place depending on the user's needs and the environment. Crontab provides more control and customization but requires more user intervention and understanding of Linux systems. In contrast, unattended updates offer ease and comprehensiveness, suitable for environments where minimal user intervention is preferred or required.
