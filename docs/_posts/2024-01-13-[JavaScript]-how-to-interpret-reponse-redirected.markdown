@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[JavaScript] How to Interpret \'response.redirected\'"
+title:  "[JavaScript] How to Interpret 'response.redirected'"
 date:   2024-01-13 16:27:42 -0500
 categories: javascript development web
 ---
