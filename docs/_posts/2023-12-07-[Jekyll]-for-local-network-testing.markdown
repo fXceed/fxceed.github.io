@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "For Local Network based Development"
+title:  "[Jekyll] For Local Network based Development"
 date:   2023-12-07 21:20:05 -0500
 categories: jekyll update development
 ---
