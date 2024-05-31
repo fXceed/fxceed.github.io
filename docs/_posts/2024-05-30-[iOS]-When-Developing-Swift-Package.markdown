@@ -18,9 +18,9 @@ You may be developing multiple packages, and they are dependent to one another, 
 
 ```swift
 dependencies: [
-		// Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/{owner}/{package}", branch: "master"),
-	],
+    // Dependencies declare other packages that this package depends on.
+    .package(url: "https://github.com/{owner}/{package}", branch: "master"),
+],
 ```
 that is using remote origin repository URL. 
 
@@ -30,6 +30,6 @@ error: ~/Library/Developer/Xcode/DerivedData/{app}-{}/Build/Intermediates.noinde
 ```
 and I am assuming, because dependency is locally bundled as well, we need to (temporarily) change dependency `url` like:
 ```swift
-		.package(url: "~/{localPath}/{package}/", branch: "master"),
+.package(url: "~/{localPath}/{package}/", branch: "master"),
 ```
 because we are bundling the package from local path, not from the remote origin repository url.
