@@ -28,8 +28,5 @@ However, if all these packages are locally bundled to be edited, this kind of de
 ```shell
 error: ~/Library/Developer/Xcode/DerivedData/{app}-{}/Build/Intermediates.noindex/{app}.build/Debug-iphonesimulator/{app}.build/Objects-normal/arm64/{app}.swiftmodule: No such file or directory (in target {app} from project {target})
 ```
-and I am assuming, because dependency is locally bundled as well, we need to (temporarily) change dependency `url` like:
-```swift
-.package(url: "~/{localPath}/{package}/", branch: "master"),
-```
-because we are bundling the package from local path, not from the remote origin repository url.
+
+If so, just go to `Files > Packages` and do `Reset Package Caches`
